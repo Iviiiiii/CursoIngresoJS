@@ -11,6 +11,14 @@ resultado=num1+num2
 
 if(resultado>0)
 {
-    
+    document.write("Positivo");
+}
+else if(resultado<0)
+{
+    document.write("Negativo");
+}
+else
+{
+    document.write("Cero");
 }
 }

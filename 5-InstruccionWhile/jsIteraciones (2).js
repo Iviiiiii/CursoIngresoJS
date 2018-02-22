@@ -1,6 +1,10 @@
 function Mostrar()
 {
-	alert('iteración while');
+	var cant=11
 
-
+	while(cant>1)
+	{
+		cant--;
+		alert(cant);
+	}
 }//FIN DE LA FUNCIÓN

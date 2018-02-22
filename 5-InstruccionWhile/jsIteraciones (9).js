@@ -1,14 +1,13 @@
 function Mostrar()
 {
-
+	var num
 	var contador=0;
-	// declarar variables
-	
 	var respuesta='si';
 
-	while(respuesta!='no')
+	while(respuesta=='si')
 	{
-		
+		num=prompt("numero");
+		respuesta=prompt("")
 	
 	}
 
