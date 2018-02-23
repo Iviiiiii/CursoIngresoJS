@@ -10,7 +10,7 @@ function Mostrar()
 	while(respuesta=="si")
 	{
 		num=prompt("numero");
-		nume=parseInt(num);
+		num=parseInt(num);
 		while(isNaN(num))
 		{
 			num=prompt("numero")
@@ -24,6 +24,7 @@ function Mostrar()
 	{
 		negativo=negativo*num;
 	}
+	respuesta=prompt("quiere continuar?");
 	}
 
 document.getElementById('suma').value=positivo;
