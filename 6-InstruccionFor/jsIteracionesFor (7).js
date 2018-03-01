@@ -2,7 +2,7 @@ function Mostrar()
 {
 var numero=prompt("diga numero");
 var numDivisores=0;
-for(var i=1;i<numero;i++)
+for(var i=1;i<=numero;i++)
 {
     if(numero%i==0)
     {
